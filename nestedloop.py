@@ -18,3 +18,6 @@ f'''or i in range (1,3):
         print(" ",end="")
     for k in range(i):
         print("*",end=" ")'''
+
+for i in range(1,6):
+    print(" "* (5-i)+"*"*(2*i-1))
