@@ -81,8 +81,10 @@ print(sum)'''
 
 #Example 9 get a number and display its cube value
 
-n=int(input("Enter a number: "))
+'''n=int(input("Enter a number: "))
 for i in range(n):
-    print("Number is ",i," cube of the number is ",i*i*i)
+    print("Number is ",i," cube of the number is ",i*i*i)'''
+
+
 
 
