@@ -56,7 +56,7 @@ print(sum)'''
 
 #Example 7 getting multiple using list integer and adding it
 
-a=[]
+'''a=[]
 for i in range(10):
     num=int(input("Enter number"+str(i+1)))
     a.append(num)
@@ -65,5 +65,24 @@ print(a)
 sum=0
 for i in a:
     sum=sum+i
-print(sum)
+print(sum)'''
+
+#Example 8 get n numbers and print the sum of n numbers
+
+'''num=int(input("Enter a numbers: "))
+a=[]
+for i in range(num):
+    n=int(input("Enter number"+str(i+1)))
+    a.append(n)
+sum=0
+for i in a:
+    sum=sum+i
+print(sum)'''
+
+#Example 9 get a number and display its cube value
+
+n=int(input("Enter a number: "))
+for i in range(n):
+    print("Number is ",i," cube of the number is ",i*i*i)
+
 
