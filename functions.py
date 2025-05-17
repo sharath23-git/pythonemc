@@ -102,3 +102,12 @@ pas=get_password()
 a=validate(user,pas)
 print(a)'''
 
+#Example to return
+
+'''def add(a,b):
+    return a+b
+a=int(input("Enter a number: "))
+b=int(input("Enter a number: "))
+c=int(input("Enter a number: "))
+ans=add(a,b)
+print(ans*c)'''
