@@ -80,4 +80,25 @@ find_range(a,b)'''
 
 print(painter())'''
 
+#Example to check login
+
+'''def get_user_name():
+    usr=input("Enter your user name: ")
+    return usr
+def get_password():
+    pas=input("Enter password: ")
+    return pas
+def validate(usr,pas):
+    if usr=="sha" and pas=="2306":
+        return True
+             "OR"
+        #print("valid")
+    else:
+        return False
+            "OR"
+        #print("Invalid")
+user=get_user_name()
+pas=get_password()
+a=validate(user,pas)
+print(a)'''
 
