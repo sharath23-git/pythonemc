@@ -27,7 +27,57 @@ div(a,b)'''
 
 #Another example
 
-def painter(msg):
+'''def painter(msg):
     print("paint my",msg)
 
-painter("house")
+painter("house")'''
+
+#Example to find odd or even
+
+'''def get_num():
+    num=int(input("Enter a number : "))
+    return num
+def find_odd_even(num):
+    if num%2==0:
+        print("Even number")
+    else:
+        print("Odd number")
+
+a=get_num()
+find_odd_even(a)'''
+
+#Example to get name and age
+
+'''def getname():
+    name=input("Enter your name: ")
+    return name
+def getage():
+    age=input("Enter your age : ")
+    return age
+def op(n,a):
+    print("Name is:",n,"\nAge is: ",a)
+name=getname()
+age=getage()
+op(name,age)'''
+
+#Example to print between range
+
+'''def get_num():
+    num=int(input("Enter a number : "))
+    return num
+def find_range(a,b):
+    for i in range(a,b):
+        print(i)
+
+a=get_num()
+b=get_num()
+find_range(a,b)'''
+
+#Example return
+
+'''def painter():
+    return "I am painter"
+
+print(painter())'''
+
+
