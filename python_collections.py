@@ -1,4 +1,4 @@
-''' Python Collections  
+''' Python Collections  ////////////////////////////////////////////////////////
 1.List[]'''
 
 
@@ -33,10 +33,62 @@ b=[4,5,6,7]
 a.extend(b)
 print(a)'''
 
-'''Python collections
+'''Python collections /////////////////////////////////////////////////////////
 2. Tuple()'''
 
-a=(1,2,3,4,5)
+'''a=(1,2,3,4,5)
+print(a)'''
+
+#Example casting tuple to list
+'''a=(1,2,3,4,5)
+b=list(a)
 print(a)
-#a.append(6) # we cannot add any element to tuple
+print(b)
+#a.append(6) # we cannot add any element to tuple'''
+
+''' Python collections /////////////////////////////////////////////////////////
+3. Set{}'''
+
+#Example to create a set
+
+'''a={7,1,2,3,4}
+print(a)
+a.add(5)
+print(a)
+a.remove(2)
+print(a)
+a.pop()
+print(a)'''
+
+'''python collections /////////////////////////////////////////////////////////
+4. Dictionary{}'''
+
+'''a={
+    "name":"sai",
+    "age":22,
+    "place":"hyd",
+    "student":"[sai,ram,krishna]"
+}
+print(a)
+print(a.keys())
+print(a.values())
+print(a.items())
+print(a["name"])'''
+
+
+'''a={
+    "name":"sai",
+    "age":22,
+    "place":"hyd",
+    "student":"[sai,ram,krishna]"
+}
+a["age"]=25 #modifying the value of age
+a["colour"]="red" #adding new key and value
+print(a)
+del a["name"]
+print(a)
+a.pop("age") #removing the key and value
+print(a)
+a.clear() #clearing the dictionary
+print(a)'''
 
