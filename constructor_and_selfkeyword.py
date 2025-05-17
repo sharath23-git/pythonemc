@@ -25,8 +25,8 @@ hp.processor="i5"
 hp.display()
 dell.display()'''
 
-#Example
-class student:
+#Example 1
+'''class student:
     def __init__(self):
        self.name="sel"
        self.regno="9876"
@@ -43,4 +43,63 @@ s2.regno="5678"
 print(s1.name)
 print(s1.regno)
 s1.display()
-s2.display()
+s2.display()'''
+
+#Example 2
+
+'''class fruit:
+    def __init__(self,col,nam):
+        self.name=nam
+        self.colou=col
+    def colour(self):
+        print("Name of the fruit: ",self.name,"\nColour of the fruit: ",self.colou)
+
+apple=fruit("red","Apple") #red is the colour and apple is the name send in an argument
+mango=fruit("Yellow","Mango")
+orange=fruit("Orange","Orange")
+apple.colour()
+orange.colour()'''
+
+#Example 3
+
+'''class teacher:
+    def __init__(self,name,regno):
+        self.name=name
+        self.regno=regno
+    def display(self,sub):
+        subject=sub
+        print("Name of the teacher: ",self.name)
+        print("Register number: ",self.regno)
+        print("Subject: ",subject)
+
+t1=teacher("sri",123)
+t2=teacher("ram",456)
+t1.display("science")
+t2.display("Maths")'''
+
+#Example 4
+
+class calculator:
+    def __init__(self,a,b):
+        self.num1=a
+        self.num2=b
+    def add(self):
+        print("Addition:       ",self.num1+self.num2)
+    def sub(self):
+        print("Subtraction:    ",self.num1-self.num2)
+    def mul(self):
+        print("Multiplication: ",self.num1*self.num2)
+    def div(self):
+        print("Division:       ",self.num1/self.num2)
+
+def sol():
+    print("--------------------------------------")
+    obj1.add()
+    obj1.sub()
+    obj1.mul()
+    obj1.div()
+num1=int(input("Enter first number:  "))
+num2=int(input("Enter second number: "))
+obj1=calculator(num1,num2)
+sol()
+
