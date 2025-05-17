@@ -5,7 +5,8 @@
 painter()'''
 
 #Example to create functon to get a number add(),sub(),mul(),div()
-def getnum():
+
+'''def getnum():
     num=int(input("Enter a number1: "))    
     return num
 def add(a,b):
@@ -22,4 +23,11 @@ b=getnum()
 add(a,b)
 sub(a,b)
 mul(a,b)
-div(a,b)
+div(a,b)'''
+
+#Another example
+
+def painter(msg):
+    print("paint my",msg)
+
+painter("house")
