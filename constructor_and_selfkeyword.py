@@ -79,7 +79,7 @@ t2.display("Maths")'''
 
 #Example 4
 
-class calculator:
+'''class calculator:
     def __init__(self,a,b):
         self.num1=a
         self.num2=b
@@ -101,5 +101,34 @@ def sol():
 num1=int(input("Enter first number:  "))
 num2=int(input("Enter second number: "))
 obj1=calculator(num1,num2)
-sol()
+sol()'''
+
+'''//////////////////////////type of class methods/////////////////////////////'''
+'''class lap:
+    chargertype="Ctype"
+    def __init__(self,name):
+        self.name=name
+        self.price=34
+    def setprice(self,price):
+        self.price=price
+    @classmethod
+    def chartyp(typ):
+        typ.charger="USB"
+        print("Type of charger:     ",typ.charger)
+    def display(self):
+        print("Name of the laptop:  ",self.name)
+        print("Price of the laptop: ",self.price)
+        print("Type of charger:     ",self.chargertype)
+    @staticmethod
+    def infer():
+        print("This is a static method")
+   
+     
+hp=lap("HP")
+hp.setprice(20000)
+hp.display()
+lap.chartyp()
+hp.infer()'''
+
+
 
