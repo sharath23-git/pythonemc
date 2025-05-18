@@ -10,7 +10,7 @@ try:
     b=int(input("Enter a number: "))
     c=input("Enter: ")
     #print(c/a)
-    print(d)
+    #print(d)
 except ValueError as e:  #only work on value error
     print("Invalid", e)
 except TypeError as e:    #only work on type error
